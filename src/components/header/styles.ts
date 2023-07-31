@@ -23,7 +23,7 @@ export const HeaderContainer = styled.div`
   .headerlist ul {
     display: flex;
     cursor: pointer;
-    gap: 4  rem;
+    gap: 4rem;
 
     li {
       font-size: 1.3rem;
