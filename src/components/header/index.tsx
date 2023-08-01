@@ -1,17 +1,26 @@
+import { NavLink } from "react-router-dom";
 import { HeaderContainer } from "./styles";
 
 export function Header() {
-  return(
+  return (
     <>
       <HeaderContainer>
-        
-        <h1>Sushi<span>Dev</span></h1>
+
+        <NavLink to="/" >
+          <h1>Sushi<span>Dev</span></h1>
+        </NavLink>
 
         <div className="headerlist">
           <ul>
-            <li>Início</li>
-            <li>Cardápio</li>
-            <li>Sobre</li>
+            <NavLink to="/">
+              <li>Início</li>
+            </NavLink>
+            <NavLink to="/cardapio" >
+              <li>Cardápio</li>
+            </NavLink>
+            <NavLink to="/sobre" >
+              <li>Sobre</li>
+            </NavLink>
           </ul>
         </div>
 

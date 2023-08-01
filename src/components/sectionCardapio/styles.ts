@@ -1,5 +1,17 @@
 import styled from "styled-components";
 
+export const TitleCardapio = styled.h1`
+  margin-top: 5rem;
+  margin-left: 10rem;
+
+  .linha {
+    height: 2px;
+    width: 100px;
+    background: #FF0000;
+    margin-left: 6rem;
+  }
+`;
+
 export const SectionCardapioContainer = styled.div`
 
   .title h1 {
@@ -14,7 +26,7 @@ export const SectionCardapioContainer = styled.div`
     align-items: center;
     justify-content: center;
     gap:2rem;
-    margin-top: 6rem;
+    margin-top: 7rem;
   }
  
   .card {
@@ -67,6 +79,31 @@ export const SectionCardapioContainer = styled.div`
         font-size: 0.8rem;
       }
     }
+  }
+
+  .plusCardapio {
+    display: flex;
+    flex-direction: column;
+    align-items: self-end;
+    margin-top: 4rem;
+    margin-right: 7rem;
+    cursor: pointer;
+
+    h1 {
+      font-size: 2rem;
+      transition: 1s all ease-in-out;
+
+      &:hover {
+        scale: 1.1;
+      }
+    }
+    
+  }
+
+  .linha {
+    height: 2px;
+    width: 150px;
+    background:#FF0000;
   }
 
 `;
