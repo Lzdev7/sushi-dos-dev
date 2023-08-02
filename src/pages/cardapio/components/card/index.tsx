@@ -1,15 +1,9 @@
-import { SectionCardapioContainer, TitleCardapio } from "./styles";
-import sushi from "../../assets/ramen-delicioso-na-superficie-escura-PhotoRoom.png-PhotoRoom.png"
+import { SectionCardapioContainer } from "../../../../components/sectionCardapio/styles";
+import sushi from "../../../../assets/ramen-delicioso-na-superficie-escura-PhotoRoom.png-PhotoRoom.png"
 
-export function SectionCardapio() {
+export function CardsCardapio() {
   return (
-    <>  
-
-      <TitleCardapio>
-        Mais pedidos:
-        <div className="linha"></div>
-      </TitleCardapio>
-
+    <>
       <SectionCardapioContainer>
 
         <div className="containerCard">
@@ -74,11 +68,6 @@ export function SectionCardapio() {
 
           </div>
 
-        </div>
-
-        <div className="plusCardapio">
-          <h1>Cardápio completo</h1>
-          <div className="linha"></div>
         </div>
 
       </SectionCardapioContainer>

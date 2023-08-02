@@ -15,7 +15,13 @@ export function SectionMain() {
             <p>A culinária japonesa é bastante equilibrada,
               sendo muito rica em peixes ômega 3,
               vegetais, massas e ingredientes frescos.
+              <br/>
+              <br/>
+              A culinária japonesa é bastante equilibrada,
+              sendo muito rica em peixes ômega 3,
+              vegetais, massas e ingredientes frescos.
             </p>
+            
             <button>Cardápio</button>
 
           </div>

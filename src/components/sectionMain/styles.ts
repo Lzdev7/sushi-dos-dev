@@ -12,13 +12,16 @@ export const SectionMainContainer = styled.div`
     flex-direction: column;
     width: 400px;
     gap: 2rem;
-
     
+    h1 {
+      font-size: 4rem;
+      width: 500px;
+    }
 
     p {
       text-align: left;
       width: 400px;
-      font-size: 1.2rem;
+      font-size:1.6rem;
     }
 
     h2 {
