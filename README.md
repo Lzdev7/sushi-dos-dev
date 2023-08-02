@@ -13,4 +13,3 @@ Contribuindo
 Se você quiser contribuir para o projeto, você pode fazer fork do projeto no GitHub e enviar pull requests com suas alterações.
 Obrigado por visualizar o projeto, caso queria contribuir o projeto é openSourche.
 
-![image](https://github.com/Lzdev7/sushi-dos-dev/assets/117917265/32bc3301-7658-4a3e-adc6-143f3f897ac2)
