@@ -1,48 +1,59 @@
 import { ContainerMore } from "./styles";
+import makimonos from "../../assets/makimono.jpg"
+import ambiente from "../../assets/ambiente.jpg"
+import { Footer } from "../footer";
 
 export function ContentMore() {
   return (
     <>
       <ContainerMore>
+
         <div className="contentMore">
 
-          <h1>Sobre nós</h1>
+          <img src={makimonos} alt="" width={400} />
 
-          <p>
-            O Sushi House é um restaurante de comida japonesa que oferece uma variedade de
-            pratos deliciosos e frescos. Nossos sushis são feitos com ingredientes
-            de alta qualidade e são preparados por chefs experientes.
-            Também oferecemos uma variedade de outros pratos japoneses, como sashimi,
-            tempura, ramen e udon.
-          </p>
+          <div className="contentMoreLegend">
 
-          <h1>Nosso ambiente</h1>
+          <h1>Temos os melhores maquimonos de angra dos reis</h1>
 
-          <p>
-            O Sushi House tem um ambiente aconchegante e elegante.
-            Nosso restaurante é perfeito para um jantar romântico,
-            um encontro com amigos ou um almoço de negócios. Também
-            oferecemos um serviço de entrega e retirada para sua conveniência.
-          </p>
+          <p>O restaurante se tornou conhecido por seus deliciosos maquimonos. 
+            Os maquimonos são enrolados de peixe cru e arroz,
+           e são um dos pratos mais populares da culinária japonesa. Os maquimonos do 
+            site são feitos com os melhores 
+            ingredientes frescos, e são preparados 
+            com muito cuidado e atenção aos detalhes.</p>
 
-          <h1>Nosso menu</h1>
+            <button>Venha conhecer</button>
 
-          <p>
-            Nosso menu oferece uma variedade de pratos deliciosos e frescos.
-            Nossos sushis são feitos com ingredientes de alta qualidade e
-            são preparados por chefs experientes.
-            Também oferecemos uma variedade de outros pratos japoneses,
-            como sashimi, tempura, ramen e udon.
-          </p>
+          </div>
 
-          <h1>Nossos serviços</h1>
-
-          <p>O Sushi House oferece uma variedade de serviços para sua comodidade. 
-            Temos um bar completo, onde você pode desfrutar de uma variedade de bebidas, 
-            incluindo saquê, cerveja e vinho. Também oferecemos um serviço de entrega e 
-            retirada para sua conveniência.</p>
         </div>
+
+        
+        <div className="contentMore">
+
+          <div className="contentMoreLegend">
+
+          <h1>Temos o melhor hambiente de angra dos reis</h1>
+
+          <p>O restaurante se tornou conhecido por seus deliciosos maquimonos. 
+            Os maquimonos são enrolados de peixe cru e arroz,
+           e são um dos pratos mais populares da culinária japonesa. Os maquimonos do 
+            site são feitos com os melhores 
+            ingredientes frescos, e são preparados 
+            com muito cuidado e atenção aos detalhes.</p>
+
+            <button>Venha conhecer</button>
+
+          </div>
+
+          <img src={ambiente} alt="" width={400} />
+
+        </div>
+
       </ContainerMore>
+
+      <Footer/>
     </>
   )
 }

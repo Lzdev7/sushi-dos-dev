@@ -21,6 +21,7 @@ export function Header() {
             <NavLink to="/sobre" >
               <li>Sobre</li>
             </NavLink>
+            <li>Restaurantes</li>
           </ul>
         </div>
 
