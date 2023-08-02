@@ -1,27 +1,15 @@
 # React + TypeScript + Vite
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Este é um site de restaurante de sushi feito em React, TypeScript, Vite, React Router dom Style Components. O site apresenta o menu do restaurante, horário de funcionamento, endereço e informações de contato. Os usuários também podem fazer pedidos online.
+Instalação
+Para instalar o projeto, execute os seguintes comandos no terminal:
+npm install
+npm start
+Usando o projeto
+Para usar o projeto, você pode navegar pelas páginas do site usando o menu na parte superior da página. Você também pode fazer pedidos online clicando no botão "Fazer pedido" na página do menu.
+Configuração
+Para configurar o projeto, você pode editar o arquivo .env. Este arquivo contém as configurações do projeto, como o nome do restaurante, o endereço de e-mail do restaurante e o número de telefone do restaurante.
+Contribuindo
+Se você quiser contribuir para o projeto, você pode fazer fork do projeto no GitHub e enviar pull requests com suas alterações.
+Obrigado por visualizar o projeto, caso queria contribuir o projeto é openSourche.
 
-Currently, two official plugins are available:
-
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
-
-## Expanding the ESLint configuration
-
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
-
-- Configure the top-level `parserOptions` property like this:
-
-```js
-   parserOptions: {
-    ecmaVersion: 'latest',
-    sourceType: 'module',
-    project: ['./tsconfig.json', './tsconfig.node.json'],
-    tsconfigRootDir: __dirname,
-   },
-```
-
-- Replace `plugin:@typescript-eslint/recommended` to `plugin:@typescript-eslint/recommended-type-checked` or `plugin:@typescript-eslint/strict-type-checked`
-- Optionally add `plugin:@typescript-eslint/stylistic-type-checked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and add `plugin:react/recommended` & `plugin:react/jsx-runtime` to the `extends` list
